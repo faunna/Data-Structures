@@ -1,8 +1,9 @@
 # The DataStructures repository.
 
 This repository has been created to contain code that implements or deals with data structures. 
-Our aim is just to learn, share and enjoy.
-Under this wide assumption, all your ideas, suggestions and contributions are really welcome. Please read these guidelines and 
+Under this wide assumption, all your ideas, suggestions and contributions are really welcome. Our aim is just to learn, share and enjoy.
+
+Please read these guidelines and 
 our code of conduct to know how to contribute here
 
 ## Contributing:
