@@ -1,6 +1,5 @@
-######################
-#binarySearch program#
-######################
+# binarySearch program#
+
 
 ABOUT THIS PROGRAM
 __________________
