@@ -119,12 +119,10 @@ This program is composed by the **Node** and **IntPols** classes and the **main(
 
 			
 
+The **main()** function:
+________________________
 
-	The **main()** function:
-	________________________
-
-		This **main()** functions creates two polynomials, p and q from two randomly-generated arrays with the 				coefficients, from two manually created arrays with the degrees (please, read the associated PRECONDITIONS above); 		   and from two ints representing the length of both polynomials.
-		Then, it tests all the implemented member functions.
+This **main()** functions creates two polynomials, p and q from two randomly-generated arrays with the coefficients, from two manually created arrays with the degrees (please, read the associated PRECONDITIONS above); and from two ints representing the length of both polynomials.Then, it tests all the implemented member functions.
 		
 
 AUTHOR: https://github.com/faunna
