@@ -1,14 +1,10 @@
-#########################
-#arrayBasedQueue program#
-#########################
+#arrayBasedQueue program
 
 ABOUT THIS PROGRAM
 __________________
 
 This C++ program contains a class of array-based-queues. Who did say that we cannot get dynamic 
 	memory with C++ arrays? 
-
-
 
 GETTING STARTED:
 ________________
@@ -20,7 +16,7 @@ You just have to compile the "arrayBasedQueue.cpp" file in your terminal with th
 THE PROGRAM:
 ____________
 
-This program is compounded by the **arrayBasedQueue** class and the **main()** function:
+This program is composed by the **arrayBasedQueue** class and the **main()** function:
 
 	The Class:
 	_________
