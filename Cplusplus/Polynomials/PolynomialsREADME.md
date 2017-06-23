@@ -1,6 +1,7 @@
-######################
-# polynomials class #
-#####################
+
+# Class of integer polynomials
+
+
 
 ABOUT THIS PROGRAM
 __________________
@@ -119,33 +120,12 @@ This program is composed by the **Node** and **IntPols** classes and the **main(
 			
 
 
-
-
-
-
-
-
-
-
-
-			5- the **pop()** method to pop (and return) the required element
-			6- the **printLinkedQueue()** method to print the elements of the given queue.
-
-
-
 	The **main()** function:
 	________________________
 
-		It calls the constructor to create an **LinkedQueue p **, then it pushes the 
-		first 36 **int** numbers (starting at 0) and prints the current values of **p**;
-		in second place, it pops its first 22 elements and prints the queue.
-		Then it pushes 127 and prints the queue again.
-		Finally, it pops 20 times with only 16 elements so prints "Empty queue, I cannot pop!" 
-		for times and by last, prints "Empty queue, I cannot print!" because the last call to 
-		**printLinkedQueue()**. That is all. Enjoy, and feel free to customize it.
-
-
-
+		This **main()** functions creates two polynomials, p and q from two randomly-generated arrays with the 				coefficients, from two manually created arrays with the degrees (please, read the associated PRECONDITIONS above); 		   and from two ints representing the length of both polynomials.
+		Then, it tests all the implemented member functions.
+		
 
 AUTHOR: https://github.com/faunna
 ___________________________________
