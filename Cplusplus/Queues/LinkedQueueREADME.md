@@ -1,6 +1,5 @@
-#########################
-#LinkedQueue program#
-#########################
+# LinkedQueue program
+
 
 ABOUT THIS PROGRAM
 __________________
@@ -13,13 +12,13 @@ GETTING STARTED:
 ________________
 
 You just have to compile the "LinkedQueue.cpp" file in your terminal with the **g++** 
-	command, and then type ./a.out to run the executable: 
+command, and then type ./a.out to run the executable: 
 
 
 THE PROGRAM:
 ____________
 
-This program is compounded by the **Node** and **LinkedQueue** classes and the **main()** function:
+This program is composed by the **Node** and **LinkedQueue** classes and the **main()** function:
 
 	The Node Class:
 	_______________
@@ -53,16 +52,12 @@ This program is compounded by the **Node** and **LinkedQueue** classes and the *
 
 
 
-	The **main()** function:
-	________________________
+The **main()** function:
+________________________
 
-		It calls the constructor to create an **LinkedQueue p **, then it pushes the 
-		first 36 **int** numbers (starting at 0) and prints the current values of **p**;
-		in second place, it pops its first 22 elements and prints the queue.
-		Then it pushes 127 and prints the queue again.
-		Finally, it pops 20 times with only 16 elements so prints "Empty queue, I cannot pop!" 
-		for times and by last, prints "Empty queue, I cannot print!" because the last call to 
-		**printLinkedQueue()**. That is all. Enjoy, and feel free to customize it.
+It calls the constructor to create an **LinkedQueue p **, then it pushes the first 36 **int** numbers (starting at 0) and prints the current values of **p**; in second place, it pops its first 22 elements and prints the queue.Then it pushes 127 and prints the queue again. Finally, it pops 20 times with only 16 elements so prints "Empty queue, I cannot pop!" for times and by last, prints "Empty queue, I cannot print!" because the last call to **printLinkedQueue()**. 
+
+That is all. Enjoy, and feel free to customize it.
 
 
 
