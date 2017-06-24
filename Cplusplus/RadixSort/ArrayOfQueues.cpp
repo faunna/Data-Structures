@@ -1,6 +1,20 @@
-/* IMPLEMENTACIÓN EJERCICIO 6 HOJA1 EDAT:
-Implementación basada en un array de 6 colas enlazadas. La clase ArrayColas tiene 3 variables miembro: la base en la que estamos trabajando= raiz, el número de elementos a ordenar=tamdatos, y un puntero a array de colas enlazadas. Esta clase tiene dos constructores, el default, y uno que crea el array de colas a partir del array de datos a ordenar haciendo la primera pasada de ordenación de unidades de paso. Las otras dos pasadas de ordenación se hacen desde sendas funciones, pasadaDos(). pasadaTres(), que tienen como parámetro un array de colas y devuelven otro extrayendo datos e insertando de manera adecuada. 
-La clase Array de Colas tiene constructor de copia y operador de asignación, pero sólo usa el constructor de copia con este main, y porque lo llamo explícitamente para  verificar su funcionamiento, para resolver el ejercicio no lo debe de necesitar. El operador de asignación no consigo que lo use, pero como compila, entiendo que para manejar arrays no necesita deep copy y por eso no lo usa.*/
+/*
+    Copyright (C) 2017. faunna
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #include <iostream>
 #include <stdlib.h>
 #include "Node.h"
