@@ -3,7 +3,7 @@
 ABOUT THIS PROGRAM
 __________________
 
-The aim of this program is using [Radix Sort] : https://en.wikipedia.org/wiki/Radix_sort to order the elements 
+The aim of this program is using [Radix Sort] : (https://en.wikipedia.org/wiki/Radix_sort) to order the elements 
 (here, integers) of a given array. 
 
 
