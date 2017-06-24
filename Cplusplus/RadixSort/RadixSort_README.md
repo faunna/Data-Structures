@@ -21,9 +21,9 @@ ____________
 
 This program is composed by the **`Node`**, **`LinkedQueues`**, **`ArrayOfQueues`** classes and the **`main()`** function, arranged into headers and **`.cpp`** files as follows:
 	
-	+ The **`Node`** class is composed by the **`Node.h`** and **`Node.cpp`** files.
-	+ The  **`LinkedQueues`** class is composed by the **`LinkedQueue.h`** and **`LinkedQueue.cpp`** files.
-	+ The  **`ArrayOfQueues`** class is composed by the **`ArrayOfQueues.h`** and **`ArrayOfQueues.cpp`** files.
+	* The **`Node`** class is composed by the **`Node.h`** and **`Node.cpp`** files.
+	* The  **`LinkedQueues`** class is composed by the **`LinkedQueue.h`** and **`LinkedQueue.cpp`** files.
+	* The  **`ArrayOfQueues`** class is composed by the **`ArrayOfQueues.h`** and **`ArrayOfQueues.cpp`** files.
 		The **`ArrayOfQueues.cpp`** file also contains the **`main()`** function.
 
 
