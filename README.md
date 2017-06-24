@@ -1,6 +1,6 @@
 # DataStructures repository
 
-This repository contains c++ programs focused on to create various data structures across various languages without using templates, following a mathematical approach. 
+This repository contains c++ programs focused on creating various data structures across various languages without using templates, following a mathematical approach. 
 Under this wide assumption, all your ideas, suggestions and contributions are really welcome. Our aim is just to learn, share and enjoy.
 
 Please read these guidelines and our code of conduct to know how to contribute here.
