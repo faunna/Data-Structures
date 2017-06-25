@@ -37,42 +37,43 @@ Linux: You just have to compile the **`PriorityQueue.cpp`** file in your termina
 
 This program is composed by the **`Node`** and **`PriorityQueue`** templated classes and the **`main()`** function:
 
-**The Node templated Class**:			SPECIFICATION
-  _________________________
+	**The Node templated Class**:			SPECIFICATION
+  	_________________________
 
-It contains 2 class variables:
-	1- **T element**: an element of type T. **int** is used as T in the **main()** function.
-        2- **bool priority**: a boolean that represents the priority of the given element T (0-no priority, 1- priority)
-        3- **Node<T> * next**: a pointer to the next Node of the priority queue.
+	It contains 2 class variables:
+		1- **T element**: an element of type T. **int** is used as T in the **main()** function.
+        	2- **bool priority**: a boolean that represents the priority of the given element T (0-no priority, 1- priority)
+       		 3- **Node<T> * next**: a pointer to the next Node of the priority queue.
 			
-This class also contains a member:
-	1-A parameterized constructor **Node<T>(T elem,bool prior,Node<T> *nxt)**: it creates a node with **T element=elem**, 	
-	**bool priority=prior** and pointing to the next node of the priority queue with **Node<T> next=nxt**
+	This class also contains a member:
+		1-A parameterized constructor **Node<T>(T elem,bool prior,Node<T> *nxt)**: it creates a node with 
+			**T element=elem**,**bool priority=prior** and pointing to the next node of the priority queue with 
+			**Node<T> next=nxt**
 
-**The PriorityQueue templated Class**:		SPECIFICATION
-  __________________________________
+	**The PriorityQueue templated Class**:		SPECIFICATION
+  	__________________________________
 
 
-It contains 5 class variables:
-	1- **Node<T> * first**: a pointer to the first T node of the priority queue. 
-	2- **Node<T> * last_hi_prior**: a pointer to the last T node with higher priority (this queue first stores the elements 
-		with priority=1 and then stores the lower priority elements (priority=0).
-        3- **Node<T> * last**: a pointer to the last T node which agrees with the last lower priority node.
-        4- **int numberOfHiPrElements**: an **int** that stores the number of elements with higher priority.		  	 
-	5- **int numberOfLowPrElements**: an **int** that stores the number of elements with lower priority.			
+	It contains 5 class variables:
+		1- **Node<T> * first**: a pointer to the first T node of the priority queue. 
+		2- **Node<T> * last_hi_prior**: a pointer to the last T node with higher priority (this queue first stores the  
+			elements with priority=1 and then stores the lower priority elements (priority=0).
+        	3- **Node<T> * last**: a pointer to the last T node which agrees with the last lower priority node.
+        	4- **int numberOfHiPrElements**: an **int** that stores the number of elements with higher priority.		  
+		5- **int numberOfLowPrElements**: an **int** that stores the number of elements with lower priority.	
 
-This class also contains 8 class members:
-	1- A default constructor **PriorityQueue()**, which sets the three pointers to NULL, and sets the number of elements of 
-		both priorities to 0. (i.e., it creates an empty priority queue).	
-	2- **void push(T elem, bool prior)**: the modified **void push** function of a queue, which here, it stores the element	
-		according to its priority.				
-	3- The destructor **~PriorityQueue<T>()**: which deeply deletes a PriorityQueue out of scope.
-	4-  **void pop()**: here, the **pop()** function is **void**, it does not return the popped element, it is limited to pop 
-		the elements respecting the order in which they have been pushed.	
-	5- The ** int getNumberOfHiPrElements()** to return the number of high priority elements in the queue.
-	6- The ** int getNumberOfLowPrElements()** to return the number of low priority elements in the queue.
-	7- The boolean **isEmpty()** function to determine whether a given **PriorityQueue** is empty or not.
-	8- The **void printPriorityQueue()** function to print the values stored in the PriorityQueue that calls it.
+	This class also contains 8 class members:
+		1- A default constructor **PriorityQueue()**, which sets the three pointers to NULL, and sets the number of  
+			elements of both priorities to 0. (i.e., it creates an empty priority queue).	
+		2- **void push(T elem, bool prior)**: the modified **void push** function of a queue, which here, it stores the	
+			element according to its priority.				
+		3- The destructor **~PriorityQueue<T>()**: which deeply deletes a PriorityQueue out of scope.
+		4-  **void pop()**: here, the **pop()** function is **void**, it does not return the popped element, it is limited  
+			to pop the elements respecting the order in which they have been pushed.	
+		5- The ** int getNumberOfHiPrElements()** to return the number of high priority elements in the queue.
+		6- The ** int getNumberOfLowPrElements()** to return the number of low priority elements in the queue.
+		7- The boolean **isEmpty()** function to determine whether a given **PriorityQueue** is empty or not.
+		8- The **void printPriorityQueue()** function to print the values stored in the PriorityQueue that calls it.
 
 
 
