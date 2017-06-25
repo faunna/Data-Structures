@@ -121,14 +121,10 @@ class PriorityQueue{
                 }
         }
         int getNumberOfHiPrElements(){
-                int result;
-                result=numberOfHiPrElements;
-                return result;
-        }
+                return numberOfHiPrElements;
+	}
         int getNumberOfLowPrElements(){
-                int result;
-                result=numberOfLowPrElements;
-                return result;
+                return numberOfLowPrElements;
         }
         bool isEmpty(){
                 return first==NULL;
