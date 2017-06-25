@@ -19,26 +19,26 @@
 
 # PriorityQueue program
 
-ABOUT THIS PROGRAM
-__________________
+**ABOUT THIS PROGRAM**
+  __________________
 
 This C++ program contains a class for linked-list based priority queues. (https://en.wikipedia.org/wiki/Priority_queue)
 
 
 
-GETTING STARTED:
-________________
+**GETTING STARTED**:
+  ________________
 
-Linux: You just have to compile the **`PriorityQueue.cpp`** file in your terminal with the **`g++`** command, and then type **`./a.out`** to run the executable: 
+Linux: You just have to compile the **`PriorityQueue.cpp`** file in your terminal with the **`g++`** command, and then type  
+**`./a.out`** to run the executable:
 
-
-THE PROGRAM:
-____________
+**THE PROGRAM**:
+  ____________
 
 This program is composed by the **`Node`** and **`PriorityQueue`** templated classes and the **`main()`** function:
 
-The Node templated Class:			SPECIFICATION
-_________________________
+**The Node templated Class**:			SPECIFICATION
+  _________________________
 
 It contains 2 class variables:
 	1- **T element**: an element of type T. **int** is used as T in the **main()** function.
@@ -49,8 +49,8 @@ This class also contains a member:
 	1-A parameterized constructor **Node<T>(T elem,bool prior,Node<T> *nxt)**: it creates a node with **T element=elem**, 	
 	**bool priority=prior** and pointing to the next node of the priority queue with **Node<T> next=nxt**
 
-The PriorityQueue templated Class:		SPECIFICATION
-__________________________________
+**The PriorityQueue templated Class**:		SPECIFICATION
+  __________________________________
 
 
 It contains 5 class variables:
@@ -76,21 +76,21 @@ This class also contains 8 class members:
 
 
 
-The **main()** function:
-________________________
+**The `main()` function**:
+  ________________________
 
-This naïve **main()** function is limited to create a priority queue of ints: **PriorityQueue<int> c** and to push one by one the 
-pairs of (int,bool) which represents (T element, bool priority) in the following set:
+This naïve **`main()`** function is limited to create a priority queue of ints: **PriorityQueue<int> c** and to push one by one  
+the pairs of (int,bool) which represents (T element, bool priority) in the following set:
 				
 			{(0,1),(1,0),(2,1),(3,0),(4,1),(5,0),(6,1),(7,0),(8,1),(9,0),(10,1),(11,0),(12,1)}
 
 
 So, here we have constructed a priority queue which already has its elements sorted, first by priority, and second by push order. 
-To check this, the **main()** function requests a print and we see:
+To check this, the **`main()`** function requests a print and we see:
 
 				(0,1)(2,1)(4,1)(6,1)(8,1)(10,1)(1,0)(3,0)(5,0)(7,0)(9,0)(11,0)
 
-Then it calls twice the **pop()** function and our queue looks like:
+Then it calls twice the **`pop()`** function and our queue looks like:
 
 				(4,1)(6,1)(8,1)(10,1)(1,0)(3,0)(5,0)(7,0)(9,0)(11,0)
 
